@@ -3,11 +3,14 @@
 
   <remote name="pixel"
           fetch="https://github.com/PixelExperience"
-          revision="pie"
-          review="gerrit.pixelexperience.org" />
+          revision="pie" />
 
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
+          revision="pie" />
+  
+  <remote name="crom"
+          fetch="https://github.com/CodeROM-Evo"
           revision="pie" />
 
   <remote name="github"
@@ -22,7 +25,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="crom" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
